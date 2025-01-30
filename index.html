@@ -1,87 +1,222 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tele.dev</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #0088cc;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        .pricing {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-        .card {
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-            background-color: #f1f1f1;
-        }
-        .card h2 {
-            margin-top: 0;
-        }
-        .card p {
-            font-size: 1.2em;
-            color: #555;
-        }
-        .card button {
-            background-color: #0088cc;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1em;
-        }
-        .card button:hover {
-            background-color: #006f9e;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #333;
-            color: white;
-        }
-        footer a {
-            color: #00aced;
-            text-decoration: none;
-        }
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Разработка ботов Telegram</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <meta name="description" content="Профессиональная разработка Telegram ботов, Web App и автоматизированных решений для бизнеса.">
+    <meta name="keywords" content="разработка telegram ботов, создание web app, бот-консультант, телеграм бот для бизнеса, автоматизация в telegram, заказать telegram бота, чат-бот на заказ, web приложение, автоматизированные боты">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Разработка Telegram ботов, Web App и ботов-консультантов под ключ">
+    <meta property="og:description" content="Создадим мощного Telegram бота, Web App или чат-бота-консультанта для бизнеса. Автоматизация процессов, интеграция с CRM и платежными системами.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tele.dev/">
 </head>
 <body>
-    <header>
-        <h1>Tele.dev</h1>
 
-    </header>
 
+  <div class="telegram-widget">
+    <a href="https://t.me/" target="_blank">
+      <img src="img/tg_write.png" alt="Telegram">
+      <span class="telegram-text">&nbsp;Написать нам</span>
+    </a>
+  </div>
+
+<div class="story-container">
+    <section class="story-section" id="section1">
+        <div class="text-block">
+            <h2 style="color:#0098EA"> <img src="img/icon_logo.png" alt="icon" style="height: 40px; vertical-align: middle; margin-right: 8px;">
+            </h2>
+            <h3 style="color:#0098EA"> Разработка ботов Telegram🔥</h3><br>
+            <p>Разработка умных чат-ботов с ИИ, сложных веб-приложений и передовых Web3-проектов для Telegram. Оставьте заявку, и мы подготовим предложение для вашего бизнеса⚡</p>
+            <!-- <button class="next-section-btn">Оставить заявку</button> -->
+            <button class="next-section-btn" onclick="window.location.href='https://mrqz.me/tele-dev';">Оставить заявку</button>
+        </div>
+        <div class="image-block">
+            <img src="img/main_img.png" alt="Illustration of the Enchanted Forest" class="image-placeholder" />
+        </div>
+    </section>
+
+
+<div class="containers">
+    <h1>Как боты в Telegam работают на практике🤖</h1><br>
+    <div class="slider-container">
+        <button class="arrow prev" onclick="moveSlide(-1)">
+            <svg viewBox="0 0 24 24">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        
+        <div class="slider">
+            <div class="card">
+                <img src="img/slide_1.png" alt="Картинка 1">
+                <h3>Web App<br>Пример реализации веб-приложения</h3>
+                <a href="https://t.me/DurgerKingBot" class="button">Открыть</a>
+            </div>
+            <div class="card">
+                <img src="img/slide_1.png" alt="Картинка 1">
+                <h3>Web App<br>Пример реализации веб-приложения</h3>
+                <a href="https://t.me/DurgerKingBot" class="button">Открыть</a>
+            </div>
+        </div>
+
+        <button class="arrow next" onclick="moveSlide(1)">
+            <svg viewBox="0 0 24 24">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+        <br>
+    </div>
+</div>
+
+
+
+    <div class="timeline-container">
+        <h1 style="color:#1E2337">Этапы разработки бота</h1><br>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">1</div>
+                <div class="timeline-content">
+                    <h3>🗂️ Сбор информации</h3>
+                    <p>Тщательно изучаем текущие бизнес-процессы заказчика. Собираем информацию, которая поможет решить стоящие задачи</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">2</div>
+                <div class="timeline-content">
+                    <h3>⚙️ Проектирование</h3>
+                    <p>Детально прорабатываем концепцию разрабатываемого продукта. Описываем новые бизнес-процессы</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">3</div>
+                <div class="timeline-content">
+                    <h3>💻 Реализация</h3>
+                    <p>Написание кода, интеграция API, добавление функций и тестирование на различных платформах</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">4</div>
+                <div class="timeline-content">
+                    <h3>✅ Внедрение Telegram-бота в бизнес-процесс</h3>
+                    <p>Запуск бота, анализ отзывов, исправление ошибок и регулярное обновление функционала</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1 style="color: #0098EA;">Самые популярные нишевые решения:</h1>
+
+    
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>🍕 Кафе, бары и рестораны</span>
+                    <div class="accordion-icon">+</div>
+                </div>
+                <div class="accordion-content">
+                    <p>Боты помогают с автоматизацией заказов, бронирования столов и улучшением сервиса для клиентов.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>🌺 Салоны красоты, барбершопы</span>
+                    <div class="accordion-icon">+</div>
+                </div>
+                <div class="accordion-content">
+                    <p>Запись клиентов на услуги, напоминания о визитах и продвижение акций.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>🎓 Обучение / Курсы</span>
+                    <div class="accordion-icon">+</div>
+                </div>
+                <div class="accordion-content">
+                    <p>Удобное расписание занятий, уведомления и тестирование учеников прямо в Telegram.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>💉 Клиника / Медицина</span>
+                    <div class="accordion-icon">+</div>
+                </div>
+                <div class="accordion-content">
+                    <p>Запись на прием, напоминания и предоставление консультаций пациентам.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>💳 Интернет-магазины</span>
+                    <div class="accordion-icon">+</div>
+                </div>
+                <div class="accordion-content">
+                    <p>Удобные каталоги товаров, обработка заказов и оповещение о статусе доставки.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>🏠 Агентства недвижимости</span>
+                    <div class="accordion-icon">+</div>
+                </div>
+                <div class="accordion-content">
+                    <p>Поиск объектов недвижимости, управление заявками и общение с клиентами.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>🏋️‍♂️ Фитнес-клубы</span>
+                    <div class="accordion-icon">+</div>
+                </div>
+                <div class="accordion-content">
+                    <p>Запись на тренировки, напоминания и продвижение клубных акций.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span>🛎️ Сервисные услуги</span>
+                    <div class="accordion-icon">+</div>
+                </div>
+                <div class="accordion-content">
+                    <p>Автоматизация взаимодействия с клиентами и управление заказами.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<br><br>
+
+
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2 style="color:#ffffff">Обсудим детали вашего бота?</h2>
+      <p style="color:#ffffff">
+        Ответьте на несколько простых вопросов и получите итоговую стоимость вашего проекта
+      </p>
+
+      <a href="https://mrqz.me/tele-dev" class="cta-button">Оставить заявку 🚀</a>
+    </div>
+    <div class="cta-image">
+      <img src="img/cta_img.png" alt="Интеграция бота">
+    </div>
+  </section>
+  
+
+<footer>
+  <div class="footer-container">
+    <small>Made with <span>❤</span> by <a href="#" style="color: #1E2337;" target="_blank">D*****V</a><br>
+        <a href="mailto:support@tele.dev" style="color: #1E2337;">support@tele.dev</a>
+    </small>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
