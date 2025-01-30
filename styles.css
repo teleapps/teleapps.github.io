@@ -183,7 +183,7 @@ p {
 
 
 
-        .container {
+/*         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
@@ -245,14 +245,71 @@ p {
         .active .accordion-content {
             display: block;
         }
- 
+  */
 
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
 
-
-
-
-
-
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0098EA;
+            text-align: center;
+        }
+        .accordion {
+            border-top: 1px solid #ddd;
+        }
+        .accordion-item {
+            border-bottom: 1px solid #ddd;
+        }
+        .accordion-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .accordion-header:hover {
+            background-color: #f0f0f0;
+        }
+        .accordion-icon {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0098EA;
+            color: white;
+            border-radius: 50%;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 30px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .accordion-content {
+            display: none;
+            padding: 15px;
+            background: #f9f9f9;
+            font-size: 14px;
+        }
+        .open .accordion-content {
+            display: block;
+        }
+        .open .accordion-icon {
+            transform: rotate(45deg);
+        }
 
 
      .timeline-container {
